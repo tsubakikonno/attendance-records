@@ -118,7 +118,7 @@ public function date()
 { 
     $user = Auth::user();
     Paginator::useBootstrap();
-    $pureDates = PureDate::ｓｓwhere('user_id', \Auth::user()->id)->paginate(5);
+    $pureDates = PureDate::where('user_id', \Auth::user()->id)->paginate(5);
 
     return view('date', compact('user', 'pureDates'));
 }
