@@ -1,0 +1,141 @@
+.header_logo_menu{
+    display: flex;
+    padding: 10px;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.logo_menu {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+.logo{
+    font-size: 30px;
+    
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pagination .page-item {
+    margin: 0 5px;
+     /* 各ページの間隔 */
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #aaa; /* 無効なリンクの色 */
+    pointer-events: none; 
+    
+    /* 無効なリンクをクリック不可にする */
+}
+
+.pagination .page-link {
+    color: #007bff; /* リンクの色 */
+    border: 1px solid #007bff; /* リンクのボーダー */
+    padding: 5px 10px; /* リンクのパディング */
+    border-radius: 5px; /* リンクの角丸 */
+    text-decoration: none; 
+    /* リンクの下線を削除 */
+}
+
+.pagination .page-link:hover {
+    background-color: #f0f0f0; /* ホバー時の背景色 */
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff; /* アクティブなページの背景色 */
+    color: #fff; /* アクティブなページのテキスト色 */
+    border-color: #007bff; /* アクティブなページのボーダー色 */
+}
+
+
+
+.pagination-arrow {
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    background: #fff;
+    color: #007bff;
+    border: 1px solid #007bff; /* 境界線のスタイルと幅を指定します。 */
+    border-radius: 5px; 
+}
+
+.pagination-arrow:hover {
+
+    background: #007bff;
+    color: #fff;
+}
+
+
+.date {
+    margin: 0 10px;
+}
+
+
+
+
+.attendance_box {
+    
+    height: 150px;
+    width: 500px;
+    font-size: 25px;
+    background: #fff;
+    margin: 40px 130px 50px;
+    
+    
+}
+
+.attendance_box1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+    width: 100%;
+}
+
+.user_name {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.logout_button {
+    background: #fff;
+    border: solid 2px #fff;
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    
+}
+
+.attendance_date_table {
+    padding: 50px;
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+.working_date {
+    font-size: 25px;
+    text-align: center;
+border-top: solid 2px #7c7979;
+}
+
+.each_data {
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    
+    border-bottom: solid 2px #7c7979;
+    width: 200px;
+}

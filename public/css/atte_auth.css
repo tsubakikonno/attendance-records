@@ -1,0 +1,55 @@
+.atte {
+    background-color: #ececec;
+    height: 700px;
+    width: 100%;
+}
+
+.header_atte {
+    font-size: 40px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.information_ttl {
+    display: block;
+    padding: 20px;
+    margin-left: 12%;
+    font-size: 25px;
+}
+.information {
+margin: 0% 35%
+}
+
+.information_each {
+    display: block;
+    list-style: none;
+    padding: 17px;
+}
+
+.input_field{
+    display: block;
+    height: 35px;
+    width: 350px;
+    border-radius: 5px;
+    border: solid 1px #b3b3b3;
+
+}
+
+.button {
+    display: block;
+    background-color: #2C7CFF;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    border: #0c131e;
+    width: 365px;
+    height: 40px;
+}
+
+.toRegister {
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    color: #2C7CFF;
+}
+
